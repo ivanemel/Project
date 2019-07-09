@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	height: 100vh;
+	width: 100vw;
+	display: grid;
+	grid-template-areas: 
+		'header'
+		'nav'
+		'main'
+		'footer'
+}
+
+nav{
+	height: 50px;
+	background-color: rgb(50,50,50);
+}
+
+nav ul li{
+	display: inline-block;
+	height: 100px;
+	color: rgb(200,200,200);
+}
+
+footer{
+	background-color: rgb(50,50,50);
+}
+
+footer div svg{
+	width: 60px;
+	height: 60px;
+	fill: aqua;
+	padding: 10px;
+	background-color: rgb(70,70,70);
+}
+
+.f-item{
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+footer div div span{
+	padding-left: 20px;
+	color: rgb(200,200,200);
+}
