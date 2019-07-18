@@ -4,18 +4,22 @@
 <head>
     <meta charset="utf-8">
     <title>Главная</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
 
 <body>
     <div class="body">
     <header>
         <div class="container-fluid header">
-            <div class="logo col-md-8">
-                <a href="#"><img src="img/logo.png" alt="Shtory-grodno"></a>
+            <div class="logo ">
+                <h1 class="logo-name"><a href="#">Shtory-grodno</a></h1>
+                <p class="logo-slogan">.by</p>
             </div>
-            <div class="contacts col-md-4">
+            <div class="contacts ">
                 <div class="number-box" >
                     <div class="number">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="20px" height="20px" viewBox="0 0 401.998 401.998" style="enable-background:new 0 0 401.998 401.998;" xml:space="preserve">
@@ -40,7 +44,45 @@
             <li><a href="#" class="navbutton">КОНТАКТЫ</a></li>
         </ul>
     </nav>
-    <main></main>
+    <main>
+       <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/img01.jpg" alt="img1">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/img02.jpg" alt="img2">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/img03.jpg" alt="img2">
+      <div class="carousel-caption">
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </main>
     <footer>
         <div class="container-fluid">
             <div class="f-line1">

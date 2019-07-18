@@ -6,30 +6,70 @@ body{
 .body{
 	padding: 0px;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+a{
+	font: inherit;
+    color: inherit;
+}
+
+.logo{
+	float: left;
+	display: inline-block;
+	
+}
+
+.logo-name{
+	display: inline-block;
+	font-size: 4em;
+	color: #57b6de;
+	font-weight: bolder;
+	
+
+
+}
+
+.logo-name a:hover{
+	text-decoration: none;
+	color: inherit;
+
+}
+
+.logo-slogan{
+	display: inline-block;
+	font-size: 2em;
+}
+
+.contacts{
+	float: right;
+	clear: right;
+	vertical-align: middle;
 }
 
 header div span{
 	display: inline-block;
 	font-size: 1.5em;
 	padding: 0px auto;
-
 }
 
-.number-box{
-	width: 100%;
-	display: flex;
-	justify-content: center;
-}
+
 .number{
-	display: inline-block;
+	float: right;
+	display: block;
+	clear: right;
 }
 
-.numberaftertext{
-	text-align: center;
+.after-number{
+	float: right;
 }
+
 
 .header{
-	margin: 30px 20px;
+	height: 70px;
+	margin-left: 40px;
+	margin-right: 40px;
 }
 
 nav{
@@ -42,12 +82,19 @@ nav ul li a{
 
 footer{
 	background-color: rgb(50,50,50);
-	position: relative;
-	bottom: 0px;
+	
 	width: 100%;
 	padding-left: 10%;
-	
+	margin: 0px;
+}
 
+.navbar{
+border-radius: 0px;
+
+}
+
+main{
+	
 }
 
 footer div svg{
