@@ -3,11 +3,21 @@ body{
 	padding: 0px;
 }
 
-.body{
-	padding: 0px;
-	height: 100vh;
+.page{
 	display: flex;
 	flex-direction: column;
+}
+
+header{
+	height: 100px;
+}
+
+.header-content{
+	height: 60%;
+	position: relative;
+	top: 20%;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
 a{
@@ -18,7 +28,6 @@ a{
 .logo{
 	float: left;
 	display: inline-block;
-	
 }
 
 .logo-name{
@@ -26,15 +35,12 @@ a{
 	font-size: 4em;
 	color: #57b6de;
 	font-weight: bolder;
-	
-
-
+	margin:0;
 }
 
 .logo-name a:hover{
 	text-decoration: none;
 	color: inherit;
-
 }
 
 .logo-slogan{
@@ -66,14 +72,11 @@ header div span{
 }
 
 
-.header{
-	height: 70px;
-	margin-left: 40px;
-	margin-right: 40px;
-}
+
 
 nav{
 	width: 100%;
+
 }
 
 nav ul li a{
@@ -90,11 +93,12 @@ footer{
 
 .navbar{
 border-radius: 0px;
+margin: 0;
 
 }
 
 main{
-	
+	min-height: 400px;
 }
 
 footer div svg{
