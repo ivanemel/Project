@@ -98,8 +98,49 @@ margin: 0;
 }
 
 main{
-	min-height: 400px;
+	min-height: 820px;
 }
+
+.content-carousel{
+	height: 400px;
+}
+
+.item img{
+	height: 100%;
+	width: 100%;
+}
+
+.content-blocks{
+	height: 400px;
+}
+
+.content-blocks-row{
+height: 380px;
+padding: 10px 40px;
+}
+
+.block{
+	height: 380px;
+	width: 25%;
+	float: left;
+}
+
+.block1{
+	background-color: #57aacd;
+}
+
+.block2{
+	background-color: #55b0d6;
+}
+
+.block3{
+	background-color: #5bb7de;
+}
+
+.block4{
+	background-color: #62bfe6;
+}
+
 
 footer div svg{
 	width: 60px;
