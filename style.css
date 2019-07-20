@@ -98,7 +98,8 @@ margin: 0;
 }
 
 main{
-	min-height: 820px;
+
+	
 }
 
 .content-carousel{
@@ -114,6 +115,12 @@ main{
 	height: 400px;
 }
 
+.content-blocks:after {
+	content: " ";
+	display: table;
+	clear: both;
+}
+
 .content-blocks-row{
 height: 380px;
 padding: 10px 40px;
@@ -123,6 +130,7 @@ padding: 10px 40px;
 	height: 380px;
 	width: 25%;
 	float: left;
+	padding: 20px;
 }
 
 .block1{
@@ -141,6 +149,15 @@ padding: 10px 40px;
 	background-color: #62bfe6;
 }
 
+.content-blocks-svg{
+	width: 50px;
+	height: 50px;
+	fill: #fff;
+}
+
+.content-blocks-svg svg{
+	height: 100%;
+}
 
 footer div svg{
 	width: 60px;
