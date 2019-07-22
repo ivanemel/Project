@@ -1,0 +1,30 @@
+.data input, .message{
+border: none;
+height: 40px;
+background-color:  Gainsboro;
+width: 300px;
+padding-left: 10px;
+margin-right: 10px;
+color: grey;
+}
+
+.message{
+	height: 300px;
+	width: 930px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+
+main div{
+	margin: 10px 50px;
+}
+
+.data{
+	margin-left: 0;
+}
+
+main div p{
+	display: inline-block;
+	width: 40%;
+}

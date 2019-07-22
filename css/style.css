@@ -6,10 +6,11 @@ body{
 .page{
 	display: flex;
 	flex-direction: column;
+	min-height: 100vh;
 }
 
 header{
-	height: 100px;
+	
 }
 
 .header-content{
@@ -56,8 +57,26 @@ a{
 
 header div span{
 	display: inline-block;
-	font-size: 1.5em;
-	padding: 0px auto;
+	font-size: 16px;
+	color: #777777;
+}
+
+.number span{
+	font-size: 24px;
+	margin-top: 10px;
+	transition: all 0.2s linear;
+	cursor: pointer;
+}
+
+.number span:hover, .f-text:hover{
+	color: #57b6de;
+}
+
+.number svg{
+	fill: #57b6de;
+	height: 30px;
+	position: relative;
+	top: 5px;
 }
 
 
@@ -71,98 +90,45 @@ header div span{
 	float: right;
 }
 
+.f-text{
+	color: #777777;
+	font-size: 16px;
+}
+
 
 
 
 nav{
 	width: 100%;
-
 }
 
 nav ul li a{
 	color: #fff;
+	font-weight: bolder;
 }
 
 footer{
 	background-color: rgb(50,50,50);
-	
+	flex-grow: 3;
 	width: 100%;
-	padding-left: 10%;
+	padding-left: 5%;
+	padding-right: 5%;
 	margin: 0px;
 }
 
 .navbar{
 border-radius: 0px;
 margin: 0;
+padding-left: 30px;
 
 }
 
-main{
 
-	
-}
-
-.content-carousel{
-	height: 400px;
-}
-
-.item img{
-	height: 100%;
-	width: 100%;
-}
-
-.content-blocks{
-	height: 400px;
-}
-
-.content-blocks:after {
-	content: " ";
-	display: table;
-	clear: both;
-}
-
-.content-blocks-row{
-height: 380px;
-padding: 10px 40px;
-}
-
-.block{
-	height: 380px;
-	width: 25%;
-	float: left;
-	padding: 20px;
-}
-
-.block1{
-	background-color: #57aacd;
-}
-
-.block2{
-	background-color: #55b0d6;
-}
-
-.block3{
-	background-color: #5bb7de;
-}
-
-.block4{
-	background-color: #62bfe6;
-}
-
-.content-blocks-svg{
-	width: 50px;
-	height: 50px;
-	fill: #fff;
-}
-
-.content-blocks-svg svg{
-	height: 100%;
-}
 
 footer div svg{
 	width: 60px;
 	height: 60px;
-	fill: aqua;
+	fill: #57b6de;
 	padding: 10px;
 	background-color: rgb(70,70,70);
 	border-radius: 3px;
@@ -175,7 +141,12 @@ footer div svg{
 	margin-top: 20px;
 }
 
-footer div div span{
+footer div div span, footer p, hr{
 	padding-left: 20px;
-	color: rgb(200,200,200);
+	color: #777777;
+}
+
+hr{
+	position: relative;
+	top: 10px;
 }
