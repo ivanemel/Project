@@ -1,7 +1,17 @@
+.nav li:nth-of-type(4) a{
+	box-shadow: 0 0 10px #fff;
+}
+
 .content{
 	padding: 30px 60px;
 }
 
  main li{
 	margin: 20px 0px;
+}
+
+ @media(max-width: 768px){
+	.content{
+		padding: 20px;
+	}
 }

@@ -1,6 +1,13 @@
+.nav li:nth-of-type(2) a{
+	box-shadow: 0 0 10px #fff;
+}
+
 .about-text{
-	min-height: 100px;
 	margin-left: 5%;
+}
+
+.about-text-articles{
+	display: flex;
 }
 
 .about-row h2{
@@ -29,7 +36,7 @@
 width: 90%;
 background-color: #57b6de;
 padding: 20px 10%;
-margin: 5%;
+margin: 20px auto;
 }
 
 .about-block{
@@ -58,4 +65,36 @@ margin: 5%;
 
 .about-row h2{
 	margin-bottom: 20px;
+}
+
+@media(max-width: 992px){
+	.about-row{
+		padding: 10px;
+	}
+	
+	.about-row-blocks{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center
+	}
+
+	.about-row h2{
+		margin-left: 20px;
+	}
+}
+
+@media(max-width: 768px){
+	.about-block{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.about-text-articles{
+		flex-direction: column;
+	}
+
+	.about-text-articles p{
+		width: 100%;
+		margin-right: 0;
+	}
 }

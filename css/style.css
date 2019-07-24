@@ -9,10 +9,6 @@ body{
 	min-height: 100vh;
 }
 
-header{
-	
-}
-
 .header-content{
 	height: 60%;
 	position: relative;
@@ -39,7 +35,7 @@ a{
 	margin:0;
 }
 
-.logo-name a:hover{
+.logo-name a:hover, .logo-name a:visited {
 	text-decoration: none;
 	color: inherit;
 }
@@ -79,7 +75,6 @@ header div span{
 	top: 5px;
 }
 
-
 .number{
 	float: right;
 	display: block;
@@ -95,9 +90,6 @@ header div span{
 	font-size: 16px;
 }
 
-
-
-
 nav{
 	width: 100%;
 }
@@ -107,23 +99,20 @@ nav ul li a{
 	font-weight: bolder;
 }
 
+.navbar{
+	border-radius: 0px;
+	margin: 0;
+	padding-left: 30px;
+}
+
 footer{
-	background-color: rgb(50,50,50);
+	background-color: #222;
 	flex-grow: 3;
 	width: 100%;
 	padding-left: 5%;
 	padding-right: 5%;
 	margin: 0px;
 }
-
-.navbar{
-border-radius: 0px;
-margin: 0;
-padding-left: 30px;
-
-}
-
-
 
 footer div svg{
 	width: 60px;
@@ -149,4 +138,78 @@ footer div div span, footer p, hr{
 hr{
 	position: relative;
 	top: 10px;
+}
+
+@media (max-width: 992px){
+	
+	.logo-name{
+		font-size: 3.5em;
+	}
+
+	.logo-slogan{
+		font-size: 1.5em;
+	}
+	
+	.number span{
+		font-size: 18px;
+	}
+
+	.numberaftertext span{
+		font-size: 14px;
+	}
+	
+	.header-content {
+	    padding-left: 20px;
+	    padding-right: 20px;
+	}
+
+	.f-item{
+		padding-right: 0;
+		padding-left: 0;
+	}
+}
+
+
+@media (max-width: 768px){
+
+	.header-content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin: 20px auto;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.number, .numberaftertext{
+		float: none;
+		clear: none;
+		width: 300px;
+		margin: 5px auto;
+		text-align: center;
+	}
+
+	.number span{
+		font-size: 24px;
+	}
+
+	.f-item{
+		flex-direction: column;
+		border-bottom: 1px solid #333;
+	}
+
+	.f-text{
+		padding-left: 0;
+		margin-top: 10px;
+	}
+}
+	
+@media (max-width: 430px){
+	.logo-name{
+		font-size: 2.5em;
+	}
+
+	.logo-slogan{
+		font-size: 1em;
+	}
 }
